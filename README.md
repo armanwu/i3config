@@ -1,5 +1,6 @@
 # fedora_i3_dotfiles
 My config for Fedora 34 using i3wm gaps + polybar :)
+
 <br>
 <img src="https://github.com/armanwu/fedora_i3_dotfiles/blob/main/Screenshot.png">
 <hr>
