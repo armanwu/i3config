@@ -1,0 +1,48 @@
+general {
+        output_format = "i3bar"
+        colors = true
+        markup = pango 
+        interval = 5
+        color_good = "#79DB32"
+  	color_degraded = "#E59728"
+  	color_bad = "#DB3279"
+}
+
+order += "load"
+order += "cpu_usage"
+order += "cpu_temperature 0"
+order += "memory"
+order += "volume master"
+order += "tztime local"
+
+load {
+    format = " %1min "
+}
+
+cpu_usage {
+    format = " %usage "
+}
+
+cpu_temperature 0 {
+        format = "  %degrees °C "
+        path = "/sys/class/thermal/thermal_zone0/temp"
+}
+
+memory {
+    format= "  %used / %available "
+    threshold_degraded = "300M"
+    format_degraded = " Free RAM: %available "
+}
+
+volume master {
+        format = "  %volume "
+        format_muted = "  muted "
+        device = "default"
+        mixer = "Master"
+        mixer_idx = 0
+}
+
+tztime local {
+		format = " %time "
+		format_time = " %a %-d %b %H:%M"
+}
