@@ -1,0 +1,63 @@
+! ======
+! Colors
+! ======
+
+*.foreground:   #dedede
+*.background:   #1e2c39
+*.cursorColor:  #83cafa
+
+! black
+*.color0:       #4c4c4c
+*.color8:       #8c8c8c
+
+! red
+*.color1:       #db3279
+*.color9:       #ec69a0
+
+! green
+*.color2:       #79db32
+*.color10:      #9ef262
+
+! yellow
+*.color3:       #e59728
+*.color11:      #fcb552
+
+! blue
+*.color4:       #51a2da
+*.color12:      #83cafa
+
+! magenta
+*.color5:       #a07cbc
+*.color13:      #b691d3
+
+! cyan
+*.color6:       #52ada1
+*.color14:      #89cec5
+
+! white
+*.color7:       #b8b6b6
+*.color15:      #dedede
+
+
+! =====
+! Fonts
+! =====
+
+URxvt*font:		xft:Monospace:regular:pixelsize=12
+URxvt*boldFont:		xft:Monospace:bold:pixelsize=12
+URxvt*italicFont:	xft:Monospace:italic:pixelsize=12
+URxvt*boldItalicFont:	xft:Monospace:bold italic:pixelsize=12
+
+
+! ======
+! Config
+! ======
+
+URxvt*letterSpace:		1
+URxvt.lineSpace:		1
+
+URxvt*depth:			12
+URxvt*scrollBar:		false
+URxvt*scrollBar_right:		false
+URxvt*internalBorder:		8
+URxvt*externalBorder:		8
